@@ -1,0 +1,44 @@
+<script>
+    $(document).ready(function() {
+        $(".rateOneStar").rate({
+            readonly: true,
+            initial_value: 1
+        });
+        $(".rateTwoStar").rate({
+            readonly: true,
+            initial_value: 2
+        });
+        $(".rateThreeStar").rate({
+            readonly: true,
+            initial_value: 3
+        });
+        $(".rateFourStar").rate({
+            readonly: true,
+            initial_value: 4
+        });
+        $(".rateFiveStar").rate({
+            readonly: true,
+            initial_value: 5
+        });
+    });
+</script>
+<style>
+    .lista-skill {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .lista-skill li {
+        display: flex;
+        font-size: 1.1rem;
+    }
+    .lista-skill span {
+        width: 75px;
+    }
+    .rate {
+        margin-left: 15px;
+    }
+    .rate .rate-select-layer {
+        color: orange;
+    }
+</style>
