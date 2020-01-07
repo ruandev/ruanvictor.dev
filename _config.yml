@@ -1,14 +1,14 @@
 # Site
 title: Ruan Victor
 bio: "Baiano, consultor e pedreiro de software na Thoughtworks."
-description: "Baiano, viciado em Bojack Horseman. Consultor e pedreiro de software na Thoughtworks. De vez em quando escritor na Training Center."
+description: "Baiano, viciado em Bojack Horseman. Consultor e pedreiro de software na Thoughtworks."
 reading_time: true
 words_per_minute: 200
 logo: "assets/img/logo.png"
 background: "assets/img/placeholder-big.jpg"
 tiled_bg: false # Set this true if you want to tile your background image, otherwise it will be covered
 locale: pt_BR
-url: https://ruanvictor.dev
+url: http://127.0.0.1:4000
 
 # Jekyll
 permalink: /:title/
@@ -50,7 +50,7 @@ instagram: ruan.viictor
 medium: "@ruan.victor"
 #pinterest:         username
 #foursquare:        username
-steam: username
+steam: ruanvictor
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel

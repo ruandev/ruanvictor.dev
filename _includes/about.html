@@ -16,29 +16,63 @@
             readonly: true,
             initial_value: 4
         });
-        $(".rateFiveStar").rate({
+        $(".rateTwoYearsAndMeio").rate({
             readonly: true,
-            initial_value: 5
+            initial_value: 2.5,
+            selected_symbol_type: "fontawesome_calendar"
         });
     });
 </script>
 <style>
-    .lista-skill {
+    @media (max-width: 600px) {
+        .flex-container ul {
+            padding-left: 0px;
+        }
+    }
+    @media (min-width: 600px) {
+        .flex-container .primeiro-ul {
+            padding-left: 0px;
+        }
+    }
+
+    .flex-container {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
     }
-    .lista-skill li {
+
+    .empresa-experiencia {
+        width: 20em;
+        border: 2px;
+        border-color: black;
+        border-style: inset;
+    }
+
+    .flex-container li {
         display: flex;
         font-size: 1.1rem;
     }
-    .lista-skill span {
+    .flex-container span {
         width: 75px;
     }
     .rate {
         margin-left: 15px;
+        height: 25px !important;
     }
+
+    .rate-base-layer,
+    .rate-select-layer {
+        height: 25px !important;
+    }
+
     .rate .rate-select-layer {
         color: orange;
+    }
+    .empresa-experiencia span {
+        font-size: 1.1rem;
+    }
+    .empresa-experiencia .rate .rate-select-layer {
+        color: blue;
     }
 </style>

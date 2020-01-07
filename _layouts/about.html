@@ -13,8 +13,7 @@ layout: compress
         {% include head.html %}
     </head>
     <body>
-        {% include scripts.html %} {% include about.html %} {% include nav.html
-        %}
+        {% include scripts.html %} {% include about.html %}
         <!-- Header -->
         <header class="header" role="banner">
             <div class="wrapper animated fadeIn">
@@ -28,9 +27,10 @@ layout: compress
                         </a>
                     </div>
                     {{ content }}
-                    <center><h3>Habilidades Técnicas</h3></center>
-                    <div class="lista-skill">
-                        <ul style="padding-left: 0px;">
+
+                    <center><h2>Habilidades Técnicas</h2></center>
+                    <div class="flex-container">
+                        <ul class="primeiro-ul">
                             <li>
                                 <span>Bootstrap</span>
                                 <div class="rate rateTwoStar"></div>
@@ -48,6 +48,10 @@ layout: compress
                                 <div class="rate rateOneStar"></div>
                             </li>
                             <li>
+                                <span>Flutter</span>
+                                <div class="rate rateOneStar"></div>
+                            </li>
+                            <li>
                                 <span>HTML</span>
                                 <div class="rate rateFourStar"></div>
                             </li>
@@ -59,6 +63,10 @@ layout: compress
                             </li>
                             <li>
                                 <span>Javascript</span>
+                                <div class="rate rateTwoStar"></div>
+                            </li>
+                            <li>
+                                <span>Laravel</span>
                                 <div class="rate rateTwoStar"></div>
                             </li>
                             <li>
